@@ -842,6 +842,8 @@ class LinkAnnotationElement extends AnnotationElement {
       ["Action", "onclick"],
       ["Mouse Up", "onmouseup"],
       ["Mouse Down", "onmousedown"],
+      ["Focus", "onfocus"],
+      ["Blur", "onblur"],
     ]);
     for (const name of Object.keys(data.actions)) {
       const jsName = map.get(name);
